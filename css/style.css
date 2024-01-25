@@ -1,0 +1,439 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin: 30px;
+    /* padding: 50px; */
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav div {}
+
+nav div ul {
+    display: flex;
+
+}
+
+div ul li {
+    margin-left: 70px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.logo {}
+
+
+/* banner section */
+
+.section {
+    height: 70vh;
+    background-image: url(./../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+}
+
+.banner h1 {
+    font-size: 70px;
+    font-weight: 600px;
+    color: white;
+}
+
+.banner p {
+
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.button {
+    font-size: 18px;
+    padding: 20px 40px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* service section */
+
+section {
+    background-color: white;
+    padding: 60px 40px;
+
+}
+
+.service-text {
+
+    text-align: center;
+    margin: 40px 0;
+}
+
+section img {
+    width: 20%;
+}
+
+section div h2 {}
+
+section div p {
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.container {
+
+    display: flex;
+    column-gap: 5%
+}
+
+.service-item {
+
+    text-align: center;
+}
+
+/* service section 2 */
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.service-2 img {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.service-2 {
+    background-color: rgb(228, 226, 223);
+    padding: 100px 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 15%;
+}
+
+.service-ite {
+    margin-left: 0;
+}
+
+.service-ite h3 {
+
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.service-ite p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.click {
+
+    background-color: black;
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+/* service section 3 */
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.service-3 {
+    background-color: white;
+    padding: 100px 10px;
+}
+
+.team {}
+
+.team h1 {
+    text-align: center;
+}
+
+.team p {
+    text-align: center;
+}
+
+.category {
+    display: flex;
+    padding-top: 40px;
+
+    column-gap: 2%;
+
+
+
+}
+
+.category img {
+    width: 350px;
+    height: 200px;
+}
+
+
+.category-item {
+
+    /* width: 25%; */
+    border: 1px solid rgb(171, 170, 169);
+}
+
+.category-item h3 {}
+
+.category-item h4 {}
+
+.category-item p {}
+
+.category-item button {
+    padding: 15px 150px;
+    background-color: rgb(175, 180, 184);
+    border: 0;
+    text-align: center;
+}
+
+/* service section 4  */
+section {
+    padding: 0;
+    margin: 0;
+}
+
+.small {
+    background-color: rgb(60, 60, 59);
+    color: white;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 25%; */
+
+}
+
+/* service section 5 */
+
+section {
+    margin: 0;
+    padding: 0;
+
+}
+
+.work {
+    padding: 80px 20px;
+}
+
+.work {
+    text-align: center;
+}
+
+.work img {
+    width: 360px;
+    height: 220px;
+}
+
+
+/* service section 6 */
+
+.flex {
+    background-color: rgb(228, 216, 216);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    /* align-items: center; */
+
+    width: 100%;
+
+    gap: 10%;
+}
+
+.skills {
+    padding: 20px 50px;
+}
+
+
+.skills h2 {
+
+    font-size: 30px;
+
+    font-weight: 600;
+
+    /* padding: 50px; */
+}
+
+
+.skills p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rating {}
+
+.rating h3 {}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+
+    width: 50px;
+
+    height: 30px;
+}
+
+.icon h3 {
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    margin-left: 20px;
+}
+
+.eighty {
+
+    padding: 20px 280px;
+
+    margin-right: 150px;
+
+    background-color: #00000059;
+
+    text-align: center;
+}
+
+.ninty {
+    padding: 20px 100px;
+    margin-right: 100px;
+    background-color: #00000059;
+    text-align: center;
+}
+
+
+.five {
+    padding: 20px 100px;
+    margin-right: 50px;
+    background-color: #00000059;
+    text-align: center;
+}
+
+/* service section 7 */
+
+.pricng {
+
+    background-color: rgb(126, 126, 120);
+    text-align: center;
+    padding: 50px 35px;
+}
+
+.About {
+    /* padding: 5px 150px; */
+    background-color: white;
+}
+
+.About-button {
+    background-color: black;
+    color: white;
+    /* margin: 100%; */
+    padding: 15px 200px;
+}
+
+.card {
+
+    display: flex;
+    gap: 2%;
+
+
+}
+
+.card h3 {}
+
+.card h4 {}
+
+
+.card button {
+    padding: 15px 200px;
+}
+
+/* service section 8 */
+.more {
+
+    padding: 30px 10px;
+    background-color: rgb(239, 239, 234);
+}
+
+.more-text {
+    text-align: center;
+}
+
+.more-text h1 {}
+
+.more-text p {}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    width: 25px;
+    height: 20px;
+}
+
+
+.contact h3 {
+
+    margin-left: 10px;
+
+    font-size: 18px;
+
+    font-weight: 100;
+}
+
+
+.customer {}
+
+.customer h2 {
+    padding: 20px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.last {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 90px;
+}
+
+
+/* footer section  */
+
+footer img {
+    width: 100%;
+
+}
